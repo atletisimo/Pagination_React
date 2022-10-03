@@ -1,0 +1,23 @@
+.pagination {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  margin: 60px;
+  padding: 20px;
+}
+.page-item {
+  font: size 20px;
+  width: 30px;
+  text-align: center;
+}
+.page-item:hover {
+  background-color: rgb(220, 204, 204);
+  font-weight: bold;
+}
+.text-primary {
+  font-size: 35px;
+  text-align: center;
+}
+.list-group-item {
+  margin: 30px 80px;
+}
