@@ -3,7 +3,7 @@ import React from "react";
 const Pagination = ({ postsPerPage, totalPosts, paginate }) => {
   const pageNumbers = [];
   for (let i = 1; i <= Math.ceil(totalPosts / postsPerPage); i++) {
-    pageNumbers.push(i); //ako indeksoet e pomal ili ednakov na vkupniotbroj na porstovi
+    pageNumbers.push(i); //ako indeksot e pomal ili ednakov na vkupniotbroj na postovi
     //podelen so postovi po strana,taka dobivame kolku stranici imame
   }
 
